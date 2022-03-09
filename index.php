@@ -22,16 +22,16 @@
 </head>
 <body>
     <div class="topnav">
-        <img src="img/" class="responsive">
+        <img src="img/default.png" class="responsive">
         <div class="topnav" id="myTopnav">
             <ul>
-                <a  href="#home">Home</a>
-                <a  href="#anime">Anime</a>
-                <a  href="#basketball">Basketbal</a>
-                <a  href="#gaming">Gaming</a>
-                <a  href="#contact">Contact</a>
-                <a  href="login.php">Login</a>
-                <a  href="register.php">Abonneer nu</a>
+                <a href="#home">Home</a>
+                <a href="#anime">Anime</a>
+                <a href="#basketball">Basketbal</a>
+                <a href="#gaming">Gaming</a>
+                <a href="#contact">Contact</a>
+                <a href="login.php">Login</a>
+                <a href="register.php">Abonneer nu</a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i></a>
             </ul>
@@ -40,21 +40,21 @@
     <main>
         <section id="home">
             <div class="slideshow-container">
-                <h2>Het  laatste nieuws</h2>
+                <h2>Het laatste nieuws</h2>
                 <div class="mySlides fade">
                     <div class="numbertext">Anime</div>
                     <img src="./img/aots4p2.jpeg" style="width:100%">
-                    <div class="text">Test</div>
+                    <div class="text">Probably 2 more week for the end of the famous anime Attack On Titan</div>
                 </div>
                 <div class="mySlides fade">
                     <div class="numbertext">Basketbal</div>
                     <img src="./img/75 nba.png" style="width:100%">
-                    <div class="text">Test</div>
+                    <div class="text">NBA 75th Anniversary</div>
                 </div>
                 <div class="mySlides fade">
                     <div class="numbertext">Gaming</div>
-                    <img src="./img/" style="width:100%">
-                    <div class="text">Test</div>
+                    <img src="./img/EldenRing.jpg" style="width:100%">
+                    <div class="text">New game called Elden Ring out now!</div>
                 </div>
             </div>
             <br>
