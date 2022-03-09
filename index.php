@@ -40,7 +40,7 @@
     <main>
         <section id="home">
             <div class="slideshow-container">
-                <h2>De laatste nieuws</h2>
+                <h2>Het  laatste nieuws</h2>
                 <div class="mySlides fade">
                     <div class="numbertext">Anime</div>
                     <img src="./img/aots4p2.jpeg" style="width:100%">
@@ -48,7 +48,7 @@
                 </div>
                 <div class="mySlides fade">
                     <div class="numbertext">Basketbal</div>
-                    <img src="./img/" style="width:100%">
+                    <img src="./img/75 nba.png" style="width:100%">
                     <div class="text">Test</div>
                 </div>
                 <div class="mySlides fade">
