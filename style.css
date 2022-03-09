@@ -108,6 +108,19 @@ body {
     animation-duration: 1.5s;
 }
 
+.basketball1 > img {
+    float: left;
+    height: 257px;
+    width: 248px;
+    max-width: 100%;
+}
+.bask_tekst1{
+    width: 250px;
+}
+
+.basketball2 > img{
+   
+}
 /* Media queries */
 
 /* Navbar */
@@ -153,3 +166,4 @@ body {
 @media only screen and (max-width: 300px) {
     .text {font-size: 11px}
 }
+
