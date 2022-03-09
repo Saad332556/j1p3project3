@@ -17,6 +17,9 @@
     <!-- Hamburger link for small screens -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
+    <!-- Favicon icoon -->
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+
     <!-- Website titel -->
     <title>AmuseNews</title>
 </head>
