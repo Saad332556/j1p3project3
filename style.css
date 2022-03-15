@@ -95,7 +95,7 @@ body {
 }
   
 .active {
-    background-color: #717171;
+    background-color: #5c5959;
 }
 
 .fade {
@@ -104,26 +104,50 @@ body {
     animation-name: fade;
     animation-duration: 1.5s;
 }
-
-/* More news */
-#news {
-    background-color: rgb(206, 193, 193);
+.basketball{
+    display:flex;
+    
+}
+  .basketball1 {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
 }
 
-/* Basketball */ 
 .basketball1 > img {
-    float: left;
     height: 257px;
     width: 248px;
     max-width: 100%;
 }
 .bask_tekst1{
     width: 250px;
+    font-size: medium;
 }
 
-.basketball2 > img{
-   width: 250px;
+.basketball2 > img {
+    height: 257px;
+    width: 250px;
+    max-width: 100%;
+} 
+
+.bask_tekst2{
+    width: 250px;
+    font-size: medium;
 }
+.basketball3 > img{
+    height: 257px;
+    width: 248px;
+    max-width: 100%;
+}
+.bask_tekst3 {
+    width: 250px;
+    font-size: medium;
+}
+
+    
+
+
 
 /* Media queries */
 

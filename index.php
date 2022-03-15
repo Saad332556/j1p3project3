@@ -80,7 +80,7 @@
             </div>
             <div class="basketball2">
                 <img src="./img/smh.jpg" alt="">
-                <p>The Brooklyn Nets and Philadelphia 76ers have completed a blockbuster trade centered around former Kia NBA MVP James Harden and former All-Star guard Ben Simmons, according to multiple reports.
+                <p class = "bask_tekst2">The Brooklyn Nets and Philadelphia 76ers have completed a blockbuster trade centered around former Kia NBA MVP James Harden and former All-Star guard Ben Simmons, according to multiple reports.
 
                 Brooklyn receives:
 
@@ -97,6 +97,10 @@
 
             </div>
             <div class="basketball3">
+                <img src="./img/westbrook.jpg" alt="">
+                <p class = "bask_tekst3">The NBA trade deadline came and went this past Thursday. The prospect of the Lakers shaking up their roster went with it. Plenty of reports have since surfaced of what few trade options the Lakers had with their limited assets. That included, confirmation that the much discussed Russell Westbrook for John Wall trade was still on the table for the LA.
+
+It was previously reported that Houston wanted the Lakers 2027 first-round pick in exchange for taking on Westbrook's contract.</p>
 
             </div>
         </section>
