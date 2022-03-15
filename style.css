@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=News+Cycle&family=Noticia+Text:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle:wght@700&family=Noticia+Text&display=swap');
+
+/* 
+    font-family: 'News Cycle', sans-serif;
+    font-family: 'Noticia Text', serif;
+*/
 
 * {
     margin: 0;
@@ -10,11 +15,6 @@ html {
     height: 100vh;
     width: 100%;
     scroll-behavior: smooth;
-}
-
-body {
-    font-family: 'News Cycle', sans-serif;
-    font-family: 'Noticia Text', serif;
 }
 
 /* Navbar */
@@ -72,6 +72,7 @@ body {
     text-align: center;
     border: 2px solid black;
     background-color: white;
+    font-family: 'News Cycle', sans-serif;
 }
 
 .numbertext {
@@ -82,6 +83,7 @@ body {
     top: 7;
     width: 100%;
     text-align: center;
+    font-family: 'News Cycle', sans-serif;
 }
   
 .dot {
@@ -106,16 +108,25 @@ body {
 }
 
 /* More news */
-.basketball{
+#basketball { background-color: #f1f1f1; }
+
+#more_news { 
+    text-align: center;
+    font-size: 40px; 
+}
+
+#flexbox {
     display:flex;
+    justify-content: space-evenly;
 }
 
 /* Basketball */
 .basketball1 {
-    background-color: #f1f1f1;
     margin: 10px;
     padding: 20px;
-    font-size: 30px;
+    background-color: rgba(229, 181, 241, 0.267);
+    border: 1px solid #807e7e;
+    box-shadow:15px 10px 40px gray;
 }
 
 .basketball1 > img {
@@ -123,29 +134,57 @@ body {
     width: 248px;
     max-width: 100%;
 }
+
 .bask_tekst1{
     width: 250px;
     font-size: medium;
+    text-align: center;
+    font-family: 'Noticia Text', serif;
+}
+
+.basketball2 {
+    margin: 10px;
+    padding: 20px;
+    height: 42rem;
+    background-color: rgba(229, 181, 241, 0.267);
+    border: 1px solid #807e7e;
+    box-shadow:15px 10px 40px gray;
 }
 
 .basketball2 > img {
-    height: 257px;
-    width: 250px;
+    height: 150px;
+    width: 248px;
     max-width: 100%;
 } 
 
-.bask_tekst2{
+.bask_tekst2, .bask_tekst2p2 {
     width: 250px;
     font-size: medium;
+    text-align: center;
+    font-family: 'Noticia Text', serif;
 }
+
+.bask_tekst2 { padding-bottom: 2rem; }
+
+.basketball3 {
+    margin: 10px;
+    padding: 20px;
+    height: 34.5rem;
+    background-color: rgba(229, 181, 241, 0.267);
+    border: 1px solid #807e7e;
+    box-shadow:15px 10px 40px gray;
+}
+
 .basketball3 > img{
-    height: 257px;
+    height: 150px;
     width: 248px;
     max-width: 100%;
 }
 .bask_tekst3 {
     width: 250px;
     font-size: medium;
+    text-align: center;
+    font-family: 'Noticia Text', serif;
 }
 
     
