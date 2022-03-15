@@ -72,7 +72,7 @@
         </section>
 
         <section id="news">
-            <h2>More News</h2>
+            <h2 id="more_news">More News</h2>
             <div class="basketball1">
                 <img src="./img/56points.jpg">
                 <p class="bask_tekst1"> In much more significant games that decided his NBA championship fortunes, LeBron James basked in his greatness by bathing in champagne. This time, James’ teammates dumped water on him

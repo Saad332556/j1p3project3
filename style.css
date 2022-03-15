@@ -110,6 +110,10 @@ body {
     background-color: rgb(206, 193, 193);
 }
 
+#more_news {
+    text-align: center;
+}
+
 /* Basketball */ 
 .basketball1 > img {
     float: left;
