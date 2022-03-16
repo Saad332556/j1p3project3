@@ -1,5 +1,5 @@
 <?php 
-    
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -92,12 +92,14 @@
             <div class="flexbox">
                 <div class="basketball1">
                     <img src="./img/56points.jpg">
-                    <p class="bask_text1"> In much more significant games that decided his NBA championship fortunes, LeBron James basked in his greatness by bathing in champagne. This time, James’ teammates dumped water on him
+                    <h2><strong>LeBron James 56 points</strong></h2>
+                    <p class="bask_tekst1"> In much more significant games that decided his NBA championship fortunes, LeBron James basked in his greatness by bathing in champagne. This time, James’ teammates dumped water on him
                     James ensured the Lakers escaped with a 124-116 win over the Golden State Warriors on Saturday by fulfilling a job description few in NBA history have done before. By finishing with a season-high 56 points while shooting 19-for-31 from the field including six from 3-point range and nearly perfect (12-for-13) from the free-throw line along with 10 rebounds, the 37-year-old James became the oldest player in NBA history to post 50-plus points and 10-plus rebounds in a game. He also became the fourth-oldest player to post a 50-point game.</p>
                 </div>
                 <div class="basketball2">
                     <img src="./img/smh.jpg" alt="">
-                    <p class ="bask_text2">The Brooklyn Nets and Philadelphia 76ers have completed a blockbuster trade centered around former Kia NBA MVP James Harden and former All-Star guard Ben Simmons, according to multiple reports.</p>
+                    <h2><strong> Simmons&Harden Trade</strong></h2>
+                    <p class ="bask_tekst2">The Brooklyn Nets and Philadelphia 76ers have completed a blockbuster trade centered around former Kia NBA MVP James Harden and former All-Star guard Ben Simmons, according to multiple reports.</p>
 
                     <p class="bask_text2p2"><b>Brooklyn</b> receives:<br>
                     <br>
@@ -115,8 +117,9 @@
                 </div>
                 <div class="basketball3">
                     <img src="./img/westbrook.jpg" alt="">
-                    <p class = "bask_text3">The NBA trade deadline came and went this past Thursday. The prospect of the Lakers shaking up their roster went with it. Plenty of reports have since surfaced of what few trade options the Lakers had with their limited assets. That included, confirmation that the much discussed Russell Westbrook for John Wall trade was still on the table for the LA.
-                    It was previously reported that Houston wanted the Lakers 2027 first-round pick in exchange for taking on Westbrook's contract.</p>
+                    <h2><strong> Russell Westbrook trade</strong></h2>
+                    <p class = "bask_tekst3">The NBA trade deadline came and went this past Thursday. The prospect of the Lakers shaking up their roster went with it. Plenty of reports have since surfaced of what few trade options the Lakers had with their limited assets. That included, confirmation that the much discussed Russell Westbrook for John Wall trade was still on the table for the LA.
+                                        It was previously reported that Houston wanted the Lakers 2027 first-round pick in exchange for taking on Westbrook's contract.</p>
 
                 </div>
             </div>
