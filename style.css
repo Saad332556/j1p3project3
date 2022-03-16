@@ -157,6 +157,8 @@ html {
 .basketball1, .basketball2, .basketball3 {
     margin: 10px;
     padding: 20px;
+    width: 350px;
+    text-align: center;
     background-color: rgba(229, 181, 241, 0.267);
     border: 1px solid #807e7e;
     box-shadow:15px 10px 40px gray;
@@ -168,8 +170,16 @@ html {
     max-width: 100%;
 }
 
+.bask_titel1, .bask_titel2, .bask_titel3 {
+    width: 300px;
+    text-align: center;
+    font-family: 'Noticia Text', serif;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 .bask_text1, .bask_text2, .bask_text2p2, .bask_text3 {
-    width: 250px;
+    width: 300px;
     font-size: medium;
     text-align: center;
     font-family: 'Noticia Text', serif;
@@ -185,7 +195,7 @@ html {
 
 .bask_tekst2 { padding-bottom: 2rem; }
 
-.basketball3 { height: 34.5rem; }
+.basketball3 { height: 31rem; }
 
 .basketball3 > img{
     height: 150px;
@@ -201,6 +211,14 @@ html {
     .topnav a.icon {
       float: right;
       display: block;
+    }
+}
+
+@media (max-width: 512px)
+{
+    .flexbox
+    {
+        flex-direction: column;
     }
 }
 
