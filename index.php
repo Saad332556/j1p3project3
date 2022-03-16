@@ -1,3 +1,6 @@
+<?php 
+    
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -30,11 +33,13 @@
             <ul>
                 <a href="#home">Home</a>
                 <a href="#anime">Anime</a>
-                <a href="#basketball">Basketbal</a>
+                <a href="#basketball">Basketball</a>
                 <a href="#gaming">Gaming</a>
                 <a href="#contact">Contact</a>
-                <a href="login.php">Login</a>
-                <a href="register.php">Abonneer nu</a>
+                <div class="topnav-right">
+                    <a href="login.php">Login</a>
+                    <a href="register.php">Abonneer nu</a>
+                </div>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i></a>
             </ul>
@@ -43,19 +48,16 @@
     <main>
         <section id="home">
             <div class="slideshow-container">
-                <h2>Het laatste nieuws</h2>
+                <h2>The latest news</h2>
                 <div class="mySlides fade">
-                    <div class="numbertext">Anime</div>
-                    <img src="./img/aots4p2.jpeg" style="width:100%">
+                    <img src="./img/aot.jpeg" style="width:100%">
                     <div class="text">Probably 2 more week for the end of the famous anime Attack On Titan</div>
                 </div>
                 <div class="mySlides fade">
-                    <div class="numbertext">Basketball</div>
                     <img src="./img/75 nba.png" style="width:100%">
                     <div class="text">NBA 75th Anniversary</div>
                 </div>
                 <div class="mySlides fade">
-                    <div class="numbertext">Gaming</div>
                     <img src="./img/EldenRing.jpg" style="width:100%">
                     <div class="text">New game called Elden Ring out now!</div>
                 </div>
@@ -67,34 +69,37 @@
                 <span class="dot"></span> 
             </div>
             <div class="top3news">
-                <div class="top3news1">
-                    <img src="" alt="">
-                    <p></p>
-                </div>
-                <div class="top3news2">
-                    <img src="" alt="">
-                    <p></p>
-                </div>
-                <div class="top3news3">
-                    <img src="" alt="">
-                    <p></p>
+                <div class="flexbox">
+                    <div class="top3news1">
+                        <img src="./img/aots4p2.jpeg" alt="">
+                        <p class="top3_text1">The well-known anime (not to be confused with manga!) called Attack on Titan, AKA AoT, is soon to reach it's end sadly. The anime started on April 7th 2013.  </p>
+                    </div>
+                    <div class="top3news2">
+                        <img src="#" alt="">
+                        <p class="top3_text2">bla bla bla</p>
+                    </div>
+                    <div class="top3news3">
+                        <img src="#" alt="">
+                        <p class="top3_text3">bla bla bla</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="basketball">
-            <h2 id="more_news">More News</h2>
-            <div id="flexbox">
+        <section id="more_news">
+            <h2 id="more_news1">More News</h2>
+            <h2 id="basketball">Basketball</h2>
+            <div class="flexbox">
                 <div class="basketball1">
                     <img src="./img/56points.jpg">
-                    <p class="bask_tekst1"> In much more significant games that decided his NBA championship fortunes, LeBron James basked in his greatness by bathing in champagne. This time, James’ teammates dumped water on him
+                    <p class="bask_text1"> In much more significant games that decided his NBA championship fortunes, LeBron James basked in his greatness by bathing in champagne. This time, James’ teammates dumped water on him
                     James ensured the Lakers escaped with a 124-116 win over the Golden State Warriors on Saturday by fulfilling a job description few in NBA history have done before. By finishing with a season-high 56 points while shooting 19-for-31 from the field including six from 3-point range and nearly perfect (12-for-13) from the free-throw line along with 10 rebounds, the 37-year-old James became the oldest player in NBA history to post 50-plus points and 10-plus rebounds in a game. He also became the fourth-oldest player to post a 50-point game.</p>
                 </div>
                 <div class="basketball2">
                     <img src="./img/smh.jpg" alt="">
-                    <p class ="bask_tekst2">The Brooklyn Nets and Philadelphia 76ers have completed a blockbuster trade centered around former Kia NBA MVP James Harden and former All-Star guard Ben Simmons, according to multiple reports.</p>
+                    <p class ="bask_text2">The Brooklyn Nets and Philadelphia 76ers have completed a blockbuster trade centered around former Kia NBA MVP James Harden and former All-Star guard Ben Simmons, according to multiple reports.</p>
 
-                    <p class="bask_tekst2p2"><b>Brooklyn</b> receives:<br>
+                    <p class="bask_text2p2"><b>Brooklyn</b> receives:<br>
                     <br>
                     -Ben Simmons<br>
                     -Seth Curry<br>
@@ -110,8 +115,8 @@
                 </div>
                 <div class="basketball3">
                     <img src="./img/westbrook.jpg" alt="">
-                    <p class = "bask_tekst3">The NBA trade deadline came and went this past Thursday. The prospect of the Lakers shaking up their roster went with it. Plenty of reports have since surfaced of what few trade options the Lakers had with their limited assets. That included, confirmation that the much discussed Russell Westbrook for John Wall trade was still on the table for the LA.
-                                        It was previously reported that Houston wanted the Lakers 2027 first-round pick in exchange for taking on Westbrook's contract.</p>
+                    <p class = "bask_text3">The NBA trade deadline came and went this past Thursday. The prospect of the Lakers shaking up their roster went with it. Plenty of reports have since surfaced of what few trade options the Lakers had with their limited assets. That included, confirmation that the much discussed Russell Westbrook for John Wall trade was still on the table for the LA.
+                    It was previously reported that Houston wanted the Lakers 2027 first-round pick in exchange for taking on Westbrook's contract.</p>
 
                 </div>
             </div>
