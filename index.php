@@ -122,6 +122,36 @@
                     It was previously reported that Houston wanted the Lakers 2027 first-round pick in exchange for taking on Westbrook's contract.</p>
                 </div>
             </div>
+            <h2 id="basketball">Gaming</h2>
+            <div class="flexbox">
+                <div class="gaming1">
+                    <img src="./img/gta 6.jpg">
+                    <h2><strong>GTA 6 Leak</strong></h2>
+                    <p class="gam_tekst1">  De geruchtenmolen draait flink wat betreft de volgende Grand Theft Auto-game, en daar heeft analyst Michael Pachter nu nog eens een extra slinger aan gegeven. Hij zegt dat de reden dat de release van de game zo lang op zich laat wachten het aantal locaties is waarop het spel plaatsvindt. Hij noemt eerdere locaties als Vice City, San Andreas, Liberty City maar ook London en andere plaatsen in Europa, waarmee een twee jaar oud gerucht kracht bij gezet wordt.
+                </p>
+
+            
+                </div>
+                <div class="gaming2">
+                    <img src="./img/2K23.png" alt="">
+                    <h2><strong> 2K23</strong></h2>
+                    <p class ="gam_tekst2">NBA 2K23 may still be months away, but even the continued success of NBA 2K22 isn't going to slow down the conversation about what's coming next.
+
+Here's everything we know about NBA 2K23 so far, including the game's release date, a potential reveal trailer, some cover athlete predictions, and more.
+
+</p>
+
+        
+
+                </div>
+                <div class="gaming3">
+                    <img src="./img/westbrook.jpg" alt="">
+                    <h2><strong> Russell Westbrook trade</strong></h2>
+                    <p class = "gam_tekst3">The NBA trade deadline came and went this past Thursday. The prospect of the Lakers shaking up their roster went with it. Plenty of reports have since surfaced of what few trade options the Lakers had with their limited assets. That included, confirmation that the much discussed Russell Westbrook for John Wall trade was still on the table for the LA.
+                    It was previously reported that Houston wanted the Lakers 2027 first-round pick in exchange for taking on Westbrook's contract.</p>
+
+                </div>
+            </div>
         </section>
     </main>
 <script src="nav.js"></script>
