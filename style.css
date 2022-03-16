@@ -193,6 +193,46 @@ html {
     max-width: 100%;
 }
 
+/* Gaming */
+.gaming1, .gaming2, .gaming3 {
+    margin: 10px;
+    padding: 20px;
+    background-color: rgba(229, 181, 241, 0.267);
+    border: 1px solid #807e7e;
+    box-shadow:15px 10px 40px gray;
+}
+
+.gaming1 > img {
+    height: 257px;
+    width: 248px;
+    max-width: 100%;
+}
+
+.gam_tekst1, .gam_tekst2, .gam_tekst2p2, .gam_tekst3 {
+    width: 250px;
+    font-size: medium;
+    text-align: center;
+    font-family: 'Noticia Text', serif;
+}
+
+.gaming2 { height: 42rem; }
+
+.gaming2 > img {
+    height: 150px;
+    width: 248px;
+    max-width: 100%;
+} 
+
+.gam_tekst2 { padding-bottom: 2rem; }
+
+.gaming3 { height: 34.5rem; }
+
+.gaming3 > img{
+    height: 150px;
+    width: 248px;
+    max-width: 100%;
+}
+
 /* Media queries */
 
 /* Navbar */
