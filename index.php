@@ -127,7 +127,9 @@
                 <div class="gaming1">
                     <img src="./img/gta 6.jpg">
                     <h2><strong>GTA 6 Leak</strong></h2>
-                    <p class="gam_tekst1">  De geruchtenmolen draait flink wat betreft de volgende Grand Theft Auto-game, en daar heeft analyst Michael Pachter nu nog eens een extra slinger aan gegeven. Hij zegt dat de reden dat de release van de game zo lang op zich laat wachten het aantal locaties is waarop het spel plaatsvindt. Hij noemt eerdere locaties als Vice City, San Andreas, Liberty City maar ook London en andere plaatsen in Europa, waarmee een twee jaar oud gerucht kracht bij gezet wordt.
+                    <p class="gam_tekst1">It's almost a shock that GTA 6 is officially happening. Earlier this year, developer Rockstar Games confirmed that "active development for the next entry in the Grand Theft Auto series is well underway." However, it was a tiny note in a recent blog post, rather than a full-blown reveal. 
+
+For years now there's been so many GTA 6 rumors and gossip doing the rounds that it feels surreal to have anything officially confirmed. We've had leaks suggesting elements of the game's story, setting, features, and other details, so it will be exciting to see what's revealed next by Rockstar. 
                 </p>
 
             
