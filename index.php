@@ -76,11 +76,11 @@
                     </div>
                     <div class="top3news2">
                         <img src="#" alt="">
-                        <p class="top3_text2">bla bla bla</p>
+                        <p class="top3_text2">Lorem ipsum</p>
                     </div>
                     <div class="top3news3">
                         <img src="#" alt="">
-                        <p class="top3_text3">bla bla bla</p>
+                        <p class="top3_text3">Lorem ipsum</p>
                     </div>
                 </div>
             </div>
@@ -91,15 +91,15 @@
             <h2 id="basketball">Basketball</h2>
             <div class="flexbox">
                 <div class="basketball1">
-                    <img src="./img/56points.jpg">
+                    <img src="./img/56points.jpg" class="responsive">
                     <h2 class="bask_titel1"><b>LeBron James 56 points</b></h2>
-                    <p class="bask_tekst1"> In much more significant games that decided his NBA championship fortunes, LeBron James basked in his greatness by bathing in champagne. This time, James’ teammates dumped water on him
+                    <p class="bask_text1"> In much more significant games that decided his NBA championship fortunes, LeBron James basked in his greatness by bathing in champagne. This time, James’ teammates dumped water on him
                     James ensured the Lakers escaped with a 124-116 win over the Golden State Warriors on Saturday by fulfilling a job description few in NBA history have done before. By finishing with a season-high 56 points while shooting 19-for-31 from the field including six from 3-point range and nearly perfect (12-for-13) from the free-throw line along with 10 rebounds, the 37-year-old James became the oldest player in NBA history to post 50-plus points and 10-plus rebounds in a game. He also became the fourth-oldest player to post a 50-point game.</p>
                 </div>
                 <div class="basketball2">
-                    <img src="./img/smh.jpg" alt="">
-                    <h2 class="bask_titel2"><b> Simmons&Harden Trade</b></h2>
-                    <p class ="bask_tekst2">The Brooklyn Nets and Philadelphia 76ers have completed a blockbuster trade centered around former Kia NBA MVP James Harden and former All-Star guard Ben Simmons, according to multiple reports.</p>
+                    <img src="./img/smh.jpg" class="responsive">
+                    <h2 class="bask_titel2"><b> Simmons & Harden Trade</b></h2>
+                    <p class ="bask_text2">The Brooklyn Nets and Philadelphia 76ers have completed a blockbuster trade centered around former Kia NBA MVP James Harden and former All-Star guard Ben Simmons, according to multiple reports.</p>
 
                     <p class="bask_text2p2"><b>Brooklyn</b> receives:<br>
                     <br>
@@ -116,40 +116,33 @@
 
                 </div>
                 <div class="basketball3">
-                    <img src="./img/westbrook.jpg" alt="">
+                    <img src="./img/westbrook.jpg" class="responsive">
                     <h2 class="bask_titel3"><b> Russell Westbrook trade</b></h2>
-                    <p class = "bask_tekst3">The NBA trade deadline came and went this past Thursday. The prospect of the Lakers shaking up their roster went with it. Plenty of reports have since surfaced of what few trade options the Lakers had with their limited assets. That included, confirmation that the much discussed Russell Westbrook for John Wall trade was still on the table for the LA.
+                    <p class = "bask_text3">The NBA trade deadline came and went this past Thursday. The prospect of the Lakers shaking up their roster went with it. Plenty of reports have since surfaced of what few trade options the Lakers had with their limited assets. That included, confirmation that the much discussed Russell Westbrook for John Wall trade was still on the table for the LA.
                     It was previously reported that Houston wanted the Lakers 2027 first-round pick in exchange for taking on Westbrook's contract.</p>
                 </div>
             </div>
-            <h2 id="basketball">Gaming</h2>
+            <h2 id="gaming">Gaming</h2>
             <div class="flexbox">
                 <div class="gaming1">
-                    <img src="./img/gta 6.jpg">
-                    <h2><strong>GTA 6 Leak</strong></h2>
-                    <p class="gam_tekst1">  De geruchtenmolen draait flink wat betreft de volgende Grand Theft Auto-game, en daar heeft analyst Michael Pachter nu nog eens een extra slinger aan gegeven. Hij zegt dat de reden dat de release van de game zo lang op zich laat wachten het aantal locaties is waarop het spel plaatsvindt. Hij noemt eerdere locaties als Vice City, San Andreas, Liberty City maar ook London en andere plaatsen in Europa, waarmee een twee jaar oud gerucht kracht bij gezet wordt.
+                    <img src="./img/gta 6.jpg" class="responsive">
+                    <h2 class="game_titel1"><strong>GTA 6 Leak</strong></h2>
+                    <p class="game_text1">  De geruchtenmolen draait flink wat betreft de volgende Grand Theft Auto-game, en daar heeft analyst Michael Pachter nu nog eens een extra slinger aan gegeven. Hij zegt dat de reden dat de release van de game zo lang op zich laat wachten het aantal locaties is waarop het spel plaatsvindt. Hij noemt eerdere locaties als Vice City, San Andreas, Liberty City maar ook London en andere plaatsen in Europa, waarmee een twee jaar oud gerucht kracht bij gezet wordt.
                 </p>
-
-            
                 </div>
                 <div class="gaming2">
-                    <img src="./img/2K23.png" alt="">
-                    <h2><strong> 2K23</strong></h2>
-                    <p class ="gam_tekst2">NBA 2K23 may still be months away, but even the continued success of NBA 2K22 isn't going to slow down the conversation about what's coming next.
+                    <img src="./img/2K23.png" class="responsive">
+                    <h2 class="game_titel3"><strong> 2K23</strong></h2>
+                    <p class ="game_text2">NBA 2K23 may still be months away, but even the continued success of NBA 2K22 isn't going to slow down the conversation about what's coming next.
 
-Here's everything we know about NBA 2K23 so far, including the game's release date, a potential reveal trailer, some cover athlete predictions, and more.
-
-</p>
-
-        
-
+                    Here's everything we know about NBA 2K23 so far, including the game's release date, a potential reveal trailer, some cover athlete predictions, and more.
+                </p>
                 </div>
                 <div class="gaming3">
-                    <img src="./img/westbrook.jpg" alt="">
-                    <h2><strong> Russell Westbrook trade</strong></h2>
-                    <p class = "gam_tekst3">The NBA trade deadline came and went this past Thursday. The prospect of the Lakers shaking up their roster went with it. Plenty of reports have since surfaced of what few trade options the Lakers had with their limited assets. That included, confirmation that the much discussed Russell Westbrook for John Wall trade was still on the table for the LA.
+                    <img src="./img/westbrook.jpg" class="responsive">
+                    <h2 class="game_titel3"><strong> Russell Westbrook trade</strong></h2>
+                    <p class = "game_text3">The NBA trade deadline came and went this past Thursday. The prospect of the Lakers shaking up their roster went with it. Plenty of reports have since surfaced of what few trade options the Lakers had with their limited assets. That included, confirmation that the much discussed Russell Westbrook for John Wall trade was still on the table for the LA.
                     It was previously reported that Houston wanted the Lakers 2027 first-round pick in exchange for taking on Westbrook's contract.</p>
-
                 </div>
             </div>
         </section>

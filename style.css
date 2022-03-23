@@ -144,20 +144,19 @@ html {
     margin-bottom: 2rem;
 }
 
-#more_news1, #basketball { text-align: center; }
+#more_news1, #basketball, #gaming { text-align: center; }
 
 #more_news1 { 
     font-size: 40px;
     margin-bottom: 2rem;
 }
 
-#basketball { font-size: 30px;  }
+#basketball, #gaming { font-size: 30px;  }
 
 /* Basketball */
 .basketball1, .basketball2, .basketball3 {
     margin: 10px;
     padding: 20px;
-    width: 350px;
     text-align: center;
     background-color: rgba(229, 181, 241, 0.267);
     border: 1px solid #807e7e;
@@ -173,7 +172,6 @@ html {
 .bask_titel1, .bask_titel2, .bask_titel3 {
     width: 300px;
     text-align: center;
-    font-family: 'Noticia Text', serif;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -185,7 +183,7 @@ html {
     font-family: 'Noticia Text', serif;
 }
 
-.basketball2 { height: 42rem; }
+.basketball2 { height: 41rem; }
 
 .basketball2 > img {
     height: 150px;
@@ -195,7 +193,7 @@ html {
 
 .bask_tekst2 { padding-bottom: 2rem; }
 
-.basketball3 { height: 31rem; }
+.basketball3 { height: 34rem; }
 
 .basketball3 > img{
     height: 150px;
@@ -207,9 +205,10 @@ html {
 .gaming1, .gaming2, .gaming3 {
     margin: 10px;
     padding: 20px;
+    text-align: center;
     background-color: rgba(229, 181, 241, 0.267);
     border: 1px solid #807e7e;
-    box-shadow:15px 10px 40px gray;
+    box-shadow: 15px 10px 40px gray;
 }
 
 .gaming1 > img {
@@ -218,14 +217,21 @@ html {
     max-width: 100%;
 }
 
-.gam_tekst1, .gam_tekst2, .gam_tekst2p2, .gam_tekst3 {
-    width: 250px;
+.game_titel1, .game_titel2, .game_titel3 {
+    width: 300px;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.game_text1, .game_text2, .game_text3 {
+    width: 300px;
     font-size: medium;
     text-align: center;
     font-family: 'Noticia Text', serif;
 }
 
-.gaming2 { height: 42rem; }
+.gaming2 { height: 28rem; }
 
 .gaming2 > img {
     height: 150px;
@@ -233,9 +239,9 @@ html {
     max-width: 100%;
 } 
 
-.gam_tekst2 { padding-bottom: 2rem; }
+.game_tekst2 { padding-bottom: 2rem; }
 
-.gaming3 { height: 34.5rem; }
+.gaming3 { height: 34rem; }
 
 .gaming3 > img{
     height: 150px;
@@ -254,11 +260,12 @@ html {
     }
 }
 
-@media (max-width: 512px)
+@media (max-width: 930px)
 {
     .flexbox
     {
         flex-direction: column;
+        width: 100%;
     }
 }
 
