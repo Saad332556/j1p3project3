@@ -146,6 +146,12 @@ html {
     max-width: 100%;
 }
 
+.top3news3 > img {
+    height: 150px;
+    width: 248px;
+    max-width: 100%;
+}
+
 /* More news */
 #more_news { 
     background-color: #f1f1f1;
@@ -253,6 +259,7 @@ html {
     width: 248px;
     max-width: 100%;
 }
+
 
 /* Media queries */
 
