@@ -37,7 +37,7 @@
                 <a href="#gaming">Gaming</a>
                 <a href="#contact">Contact</a>
                 <div class="topnav-right">
-                    <a href="login.php">Login</a>
+                    <a href="../registratie/login.php">Login</a>
                     <a href="register.php">Abonneer nu</a>
                 </div>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -75,12 +75,20 @@
                         <p class="top3_text1">The well-known anime (not to be confused with manga!) called Attack on Titan, AKA AoT, is soon to reach it's end sadly. The anime started on April 7th 2013.  </p>
                     </div>
                     <div class="top3news2">
-                        <img src="#" alt="">
-                        <p class="top3_text2">bla bla bla</p>
+                        <img src="./img/steph.jpg" alt="">
+                        <p class="top3_text2">  <br> After Golden State Warriors guard Stephen Curry tumbled to the floor, Boston Celtics guard Marcus Smart inadvertently dove toward his knees. Will the Warriors’ NBA title chances also dive because of that sequence?
+
+The Warriors said they will reevaluate Curry in two weeks after an MRI revealed that he sprained a ligament in his left foot ligament following Smart’s collision in last Wednesday’s loss to Boston. That ensures that Curry will have missed seven contests, which includes Sunday’s loss to San Antonio as well as games against Orlando (Tuesday), Miami (Wednesday), Atlanta (Friday), Washington (Sunday), Memphis (March 28) and Phoenix (March 30).
+
+But what about after that? Will Curry play in any regular-season games? How about the playoffs?
+
+There are lots of unanswered questions about him and it’s no wonder, then, that a few Curry-related questions have appeared in this week’s mailbag.</p>
                     </div>
                     <div class="top3news3">
-                        <img src="#" alt="">
-                        <p class="top3_text3">bla bla bla</p>
+                        <img src="./img/warzone.jpeg" alt="">
+                        <p class="top3_text3"> <br> Spelers die met Snoop Dogg aan de slag willen Call of Duty Warzone en Vanguard moeten iets langer wachten. Zij kunnen namelijk met de nieuwe Operator aan de slag vanaf 19 april. Daarvoor zal je de Snoop Dogg Operator Bundle moeten aanschaffen, waarmee je toegang krijgt tot een volledige Operator progression track. Naarmate je stijgt in level zal je tien verschillende items ontgrendelen, waarbij er drie exclusief zijn voor Call of Duty Vanguard.
+                        Het is niet de eerste keer dat Snoop Dogg in een Call of Duty game verschijnt. Hij was eerder al te horen in Call of Duty Ghosts via een voiceover pack. Deze keer zal hij dus niet alleen zijn stem, maar ook zijn gelijkenis verlenen aan de game.
+                        </p>
                     </div>
                 </div>
             </div>
