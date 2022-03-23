@@ -75,6 +75,7 @@
                         <p class="top3_text1">The well-known anime (not to be confused with manga!) called Attack on Titan, AKA AoT, is soon to reach it's end sadly. The anime started on April 7th 2013.  </p>
                     </div>
                     <div class="top3news2">
+
                         <img src="./img/steph.jpg" alt="">
                         <p class="top3_text2">  <br> After Golden State Warriors guard Stephen Curry tumbled to the floor, Boston Celtics guard Marcus Smart inadvertently dove toward his knees. Will the Warriors’ NBA title chances also dive because of that sequence?
 
@@ -89,6 +90,7 @@ There are lots of unanswered questions about him and it’s no wonder, then, tha
                         <p class="top3_text3"> <br> Spelers die met Snoop Dogg aan de slag willen Call of Duty Warzone en Vanguard moeten iets langer wachten. Zij kunnen namelijk met de nieuwe Operator aan de slag vanaf 19 april. Daarvoor zal je de Snoop Dogg Operator Bundle moeten aanschaffen, waarmee je toegang krijgt tot een volledige Operator progression track. Naarmate je stijgt in level zal je tien verschillende items ontgrendelen, waarbij er drie exclusief zijn voor Call of Duty Vanguard.
                         Het is niet de eerste keer dat Snoop Dogg in een Call of Duty game verschijnt. Hij was eerder al te horen in Call of Duty Ghosts via een voiceover pack. Deze keer zal hij dus niet alleen zijn stem, maar ook zijn gelijkenis verlenen aan de game.
                         </p>
+
                     </div>
                 </div>
             </div>
@@ -99,15 +101,15 @@ There are lots of unanswered questions about him and it’s no wonder, then, tha
             <h2 id="basketball">Basketball</h2>
             <div class="flexbox">
                 <div class="basketball1">
-                    <img src="./img/56points.jpg">
+                    <img src="./img/56points.jpg" class="responsive">
                     <h2 class="bask_titel1"><b>LeBron James 56 points</b></h2>
-                    <p class="bask_tekst1"> In much more significant games that decided his NBA championship fortunes, LeBron James basked in his greatness by bathing in champagne. This time, James’ teammates dumped water on him
+                    <p class="bask_text1"> In much more significant games that decided his NBA championship fortunes, LeBron James basked in his greatness by bathing in champagne. This time, James’ teammates dumped water on him
                     James ensured the Lakers escaped with a 124-116 win over the Golden State Warriors on Saturday by fulfilling a job description few in NBA history have done before. By finishing with a season-high 56 points while shooting 19-for-31 from the field including six from 3-point range and nearly perfect (12-for-13) from the free-throw line along with 10 rebounds, the 37-year-old James became the oldest player in NBA history to post 50-plus points and 10-plus rebounds in a game. He also became the fourth-oldest player to post a 50-point game.</p>
                 </div>
                 <div class="basketball2">
-                    <img src="./img/smh.jpg" alt="">
-                    <h2 class="bask_titel2"><b> Simmons&Harden Trade</b></h2>
-                    <p class ="bask_tekst2">The Brooklyn Nets and Philadelphia 76ers have completed a blockbuster trade centered around former Kia NBA MVP James Harden and former All-Star guard Ben Simmons, according to multiple reports.</p>
+                    <img src="./img/smh.jpg" class="responsive">
+                    <h2 class="bask_titel2"><b> Simmons & Harden Trade</b></h2>
+                    <p class ="bask_text2">The Brooklyn Nets and Philadelphia 76ers have completed a blockbuster trade centered around former Kia NBA MVP James Harden and former All-Star guard Ben Simmons, according to multiple reports.</p>
 
                     <p class="bask_text2p2"><b>Brooklyn</b> receives:<br>
                     <br>
@@ -124,23 +126,21 @@ There are lots of unanswered questions about him and it’s no wonder, then, tha
 
                 </div>
                 <div class="basketball3">
-                    <img src="./img/westbrook.jpg" alt="">
+                    <img src="./img/westbrook.jpg" class="responsive">
                     <h2 class="bask_titel3"><b> Russell Westbrook trade</b></h2>
-                    <p class = "bask_tekst3">The NBA trade deadline came and went this past Thursday. The prospect of the Lakers shaking up their roster went with it. Plenty of reports have since surfaced of what few trade options the Lakers had with their limited assets. That included, confirmation that the much discussed Russell Westbrook for John Wall trade was still on the table for the LA.
+                    <p class = "bask_text3">The NBA trade deadline came and went this past Thursday. The prospect of the Lakers shaking up their roster went with it. Plenty of reports have since surfaced of what few trade options the Lakers had with their limited assets. That included, confirmation that the much discussed Russell Westbrook for John Wall trade was still on the table for the LA.
                     It was previously reported that Houston wanted the Lakers 2027 first-round pick in exchange for taking on Westbrook's contract.</p>
                 </div>
             </div>
-            <h2 id="basketball">Gaming</h2>
+            <h2 id="gaming">Gaming</h2>
             <div class="flexbox">
                 <div class="gaming1">
                     <img src="./img/gta 6.jpg">
                     <h2><strong>GTA 6 Leak</strong></h2>
                     <p class="gam_tekst1">It's almost a shock that GTA 6 is officially happening. Earlier this year, developer Rockstar Games confirmed that "active development for the next entry in the Grand Theft Auto series is well underway." However, it was a tiny note in a recent blog post, rather than a full-blown reveal. 
 
-For years now there's been so many GTA 6 rumors and gossip doing the rounds that it feels surreal to have anything officially confirmed. We've had leaks suggesting elements of the game's story, setting, features, and other details, so it will be exciting to see what's revealed next by Rockstar. 
+                    For years now there's been so many GTA 6 rumors and gossip doing the rounds that it feels surreal to have anything officially confirmed. We've had leaks suggesting elements of the game's story, setting, features, and other details, so it will be exciting to see what's revealed next by Rockstar. 
                 </p>
-
-            
                 </div>
                 <div class="gaming2">
                     <img src="./img/Ps-Plus-.jpg" alt="">
@@ -152,6 +152,8 @@ Typically, March releases for PS Plus follow a “big” pattern where it’s on
 
         
 
+                    Here's everything we know about NBA 2K23 so far, including the game's release date, a potential reveal trailer, some cover athlete predictions, and more.
+                </p>
                 </div>
                 <div class="gaming3">
                     <img src="./img/2k23.png" alt="">
