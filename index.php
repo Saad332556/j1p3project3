@@ -135,22 +135,23 @@ For years now there's been so many GTA 6 rumors and gossip doing the rounds that
             
                 </div>
                 <div class="gaming2">
-                    <img src="./img/2K23.png" alt="">
-                    <h2><strong> 2K23</strong></h2>
-                    <p class ="gam_tekst2">NBA 2K23 may still be months away, but even the continued success of NBA 2K22 isn't going to slow down the conversation about what's coming next.
+                    <img src="./img/Ps-Plus-.jpg" alt="">
+                    <h2><strong> PS Plus Games April</strong></h2>
+                    <p class ="gam_tekst2">ach and every month, as the midway shifts toward the end, many fans become excited for the next PS Plus free game reveal. No two months are created equal, however, and many haven’t seemed too happy with PS Plus so far this year—except for March. PS Plus’ free games for February 2022 were exceptionably controversial, giving out niche or not-full games.
 
-Here's everything we know about NBA 2K23 so far, including the game's release date, a potential reveal trailer, some cover athlete predictions, and more.
-
+Typically, March releases for PS Plus follow a “big” pattern where it’s one of the best months of the year. It seems safe to say that March 2022 may not have been the biggest March in recent years, but it was still a solid month. Hopefully, what follows in April proves to be the same. There’s no telling what Sony will reveal, expectedly on March 30, but here are a few games that could do well on the service.
 </p>
 
         
 
                 </div>
                 <div class="gaming3">
-                    <img src="./img/westbrook.jpg" alt="">
-                    <h2><strong> Russell Westbrook trade</strong></h2>
-                    <p class = "gam_tekst3">The NBA trade deadline came and went this past Thursday. The prospect of the Lakers shaking up their roster went with it. Plenty of reports have since surfaced of what few trade options the Lakers had with their limited assets. That included, confirmation that the much discussed Russell Westbrook for John Wall trade was still on the table for the LA.
-                    It was previously reported that Houston wanted the Lakers 2027 first-round pick in exchange for taking on Westbrook's contract.</p>
+                    <img src="./img/2k23.png" alt="">
+                    <h2><strong>2k23 Leaks</strong></h2>
+                    <p class = "gam_tekst3">NBA 2K23 may still be months away, but even the continued success of NBA 2K22 isn't going to slow down the conversation about what's coming next.
+
+Here's everything we know about NBA 2K23 so far, including the game's release date, a potential reveal trailer, some cover athlete predictions, and more.
+</p>
 
                 </div>
             </div>
