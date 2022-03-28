@@ -26,6 +26,13 @@ html {
     justify-content: space-evenly;
 }
 
+.titel {
+    width: 300px;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 /* Navbar */
 .topnav {
     background-color: rgb(69, 81, 83);
@@ -120,17 +127,17 @@ html {
 .top3news1, .top3news2, .top3news3 {
     margin: 10px;
     padding: 20px;
-    height: fit-content;
     text-align: center;
+    height: fit-content;
     background-color: rgba(229, 181, 241, 0.267);
     border: 1px solid #807e7e;
     box-shadow:15px 10px 40px gray;
 }
 
 .top3_text1, .top3_text2, .top3_text3 {
-    width: 250px;
+    width: 300px;
+    text-align: left;
     font-size: medium;
-    text-align: center;
     font-family: 'Noticia Text', serif;
 }
 
@@ -138,6 +145,7 @@ html {
     height: 150px;
     width: 248px;
     max-width: 100%;
+    text-align: center;
 }
 
 .top3news2 > img {
@@ -172,8 +180,8 @@ html {
 .basketball1, .basketball2, .basketball3 {
     margin: 10px;
     padding: 20px;
-    height: fit-content;
     text-align: center;
+    height: fit-content;
     background-color: rgba(229, 181, 241, 0.267);
     border: 1px solid #807e7e;
     box-shadow:15px 10px 40px gray;
@@ -197,21 +205,12 @@ html {
     max-width: 100%;
 }
 
-.bask_titel1, .bask_titel2, .bask_titel3 {
-    width: 300px;
-    text-align: center;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
 .bask_text1, .bask_text2, .bask_text2p2, .bask_text2p3, .bask_text3 {
     width: 300px;
+    text-align: left;
     font-size: medium;
-    text-align: center;
     font-family: 'Noticia Text', serif;
 }
-
-.bask_text1 { margin-bottom: 1rem; }
 
 .bask_text2, .bask_text2p2 { padding-bottom: 1rem; }
 
@@ -219,8 +218,8 @@ html {
 .gaming1, .gaming2, .gaming3 {
     margin: 10px;
     padding: 20px;
-    height: fit-content;
     text-align: center;
+    height: fit-content;
     background-color: rgba(229, 181, 241, 0.267);
     border: 1px solid #807e7e;
     box-shadow:15px 10px 40px gray;
@@ -232,17 +231,10 @@ html {
     max-width: 100%;
 }
 
-.game_titel1, .game_titel2, .game_titel3 {
-    width: 300px;
-    text-align: center;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
 .game_text1, .game_text2, .game_text3 {
     width: 300px;
+    text-align: left;
     font-size: medium;
-    text-align: center;
     font-family: 'Noticia Text', serif;
 }
 
