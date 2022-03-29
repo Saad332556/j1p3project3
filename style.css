@@ -166,7 +166,10 @@ html {
     margin-bottom: 2rem;
 }
 
-#more_news1, #basketball, #gaming { text-align: center; }
+#more_news1, #basketball, #gaming, #anime { 
+    text-align: center;
+    margin-top: 3rem; 
+}
 
 #more_news1 { 
     font-size: 40px;
@@ -174,7 +177,46 @@ html {
     padding-top: 2rem;
 }
 
-#basketball, #gaming { font-size: 30px;  }
+#basketball, #gaming, #anime { font-size: 30px;  }
+
+/* Anime */
+.anime1, .anime2, .anime3 {
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    height: fit-content;
+    background-color: rgba(229, 181, 241, 0.267);
+    border: 1px solid #807e7e;
+    box-shadow:15px 10px 40px gray;
+}
+
+.anime1 > img {
+    height: 170px;
+    width: 248px;
+    max-width: 100%;
+}
+
+.anime2 > img {
+    height: 170px;
+    width: 270px;
+    max-width: 100%;
+} 
+
+.anime3 > img{
+    height: 205px;
+    width: 150px;
+    max-width: 100%;
+}
+
+.anime_text1, .anime_text1p2, .anime_text2, 
+.anime_text2p2, .anime_text3, .anime_text3p2 {
+    width: 300px;
+    text-align: left;
+    font-size: medium;
+    font-family: 'Noticia Text', serif;
+}
+
+ .anime_text1, .anime_text2, .anime_text3 { padding-bottom: 1rem; }
 
 /* Basketball */
 .basketball1, .basketball2, .basketball3 {
@@ -205,14 +247,17 @@ html {
     max-width: 100%;
 }
 
-.bask_text1, .bask_text2, .bask_text2p2, .bask_text2p3, .bask_text3 {
+.bask_text1, .bask_text1p2, .bask_text2, 
+.bask_text2p2, .bask_text2p3, .bask_text3,
+.bask_text3p2 {
     width: 300px;
     text-align: left;
     font-size: medium;
     font-family: 'Noticia Text', serif;
 }
 
-.bask_text2, .bask_text2p2 { padding-bottom: 1rem; }
+.bask_text1, .bask_text2, .bask_text2p2, 
+.bask_text3 { padding-bottom: 1rem; }
 
 /* Gaming */
 .gaming1, .gaming2, .gaming3 {
@@ -231,7 +276,7 @@ html {
     max-width: 100%;
 }
 
-.game_text1, .game_text2, .game_text3 {
+.game_text1, .game_text1p2, .game_text2, .game_text2p2, .game_text3 {
     width: 300px;
     text-align: left;
     font-size: medium;
@@ -244,7 +289,7 @@ html {
     max-width: 100%;
 } 
 
-.game_tekst2 { padding-bottom: 2rem; }
+.game_tekst2 { padding-bottom: 1rem; }
 
 .gaming3 > img{
     height: 150px;
@@ -252,6 +297,7 @@ html {
     max-width: 100%;
 }
 
+.game_text1, .game_text2 { padding-bottom: 1rem; }
 
 /* Media queries */
 
@@ -303,6 +349,23 @@ html {
     .flexbox
     {
         flex-direction: column;
+        width: 100%;
+    }
+
+    .titel {
+        width: 100%;
+    }
+
+    .anime1, .anime2, .anime3,
+    .basketball1, .basketball2, .basketball3, 
+    .gaming1, .gaming2, .gaming3 {  text-align: center; }
+
+    .top3_text1, .top3_text2, .top3_text3,
+    .anime_text1, .anime_text1p2, .anime_text2, 
+    .anime_text2p2, .anime_text3, .anime_text3p2, 
+    .bask_text1, .bask_text1p2, .bask_text2, .bask_text2p2, .bask_text2p3,
+    .bask_text3, .bask_text3p2, .game_text1, .game_text1p2, .game_text2, .game_text2p2, .game_text3 {
+        text-align: center;
         width: 100%;
     }
 }

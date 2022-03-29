@@ -97,7 +97,7 @@
                     </div>
                     <div class="top3news3">
                         <img src="./img/warzone.jpeg" alt="">
-                        <h2 class="titel"><b>Attack on Titan</b></h2>
+                        <h2 class="titel"><b>Call of Duty</b></h2>
                         <p class="top3_text3">
                             Players who want to get started with Snoop Dogg in Call of Duty Warzone and Vanguard will have to wait a
                             little longer. They can start working with the new Operator from 19 April. For that you will need to
@@ -116,6 +116,46 @@
 
         <section id="more_news">
             <h2 id="more_news1">More News</h2>
+            <h2 id="anime">Anime</h2>
+            <div class="flexbox">
+                <div class="anime1">
+                    <img src="./img/chainsaw-man.webp" alt="">
+                    <h2 class="titel"><b>Chainsaw Man</b></h2>
+                    <p class="anime_text1">
+                        Chainsaw Man (Japanese: チェンソーマン, Chensōman) is a Japanese manga series written and illustrated by Tatsuki Fujimoto. It was serialized in Shueisha's Weekly Shōnen Jump magazine from December 2018 to December 2020, with its chapters collected in eleven tankōbon volumes. It follows the story of Denji, an impoverished young man who after making a contract with a dog-like devil named Pochita, he fuses with Denji, granting him the ability to transform parts of his body into chainsaws. Denji eventually joins the Public Safety Devil Hunters, a government agency focused on fighting against devils whenever they become a threat to the world.
+                    </p>
+
+                    <p class="anime_text1p2">
+                        A second part of the manga is set to be serialized in Shueisha's Shōnen Jump+ online magazine starting in Q3 2022. In North America, the manga is licensed in English by Viz Media, for both print and digital release, and it is also published by Shueisha on the Manga Plus online platform. An anime television series adaptation produced by MAPPA is <b>set to premiere in 2022.</b>
+                    </p>
+                </div>
+                <div class="anime2">
+                    <img src="./img/Spy-x-family.jpg" alt="">
+                    <h2 class="titel"><b>Spy X Family</b></h2>
+                    <p class ="anime_text2">
+                        Based on Tatsuya’s Endo’s popular Shonen Jump manga series, Spy x Family (pronounced “Spy Family;” think Hunter x Hunter) follows an extremely proficient and enigmatic secret agent who goes undercover in order to infiltrate the government of an enemy state. As part of his mission, he must get married within a week and adopt a small child as part of his cover story, as well as go by the alias of “Loid Forger.” Things take an turn à la Mr. & Mrs. Smith when it’s revealed that not only is his wife secretly an assassin, but their newly adopted daughter Anya is a powerful psychic who will do anything to keep her newfound family intact.
+                    </p>
+
+                    <p class ="anime_text2">
+                        Tatsuya Endo’s original manga quickly became one of Shonen Jump’s most popular new series less than a year after it debuted, with our very own Julia Lee calling it one of the best comics of 2020. If that weren’t enough, combine that with the fact that the series is a co-production between CloverWorks Studio (Promised Neverland, Horiymiya) and WIT Studio (Attack on Titan, Vinland Saga) and is directed by none other than Kazuhiro Furuhashi (Rurouni Kenshin, Dororo) and you’ve got a recipe for one of the season’s biggest hits.
+                    </p>
+
+                    <p class ="anime_text2p2">
+                        <b>Spy x Family premieres April 9th 2022.</b>
+                    </p>
+                </div>
+                <div class="anime3">
+                    <img src="./img/skeleton_knight.jpg" alt="">
+                    <h2 class="titel"><b>Skeleton Knight In Another World</b></h2>
+                    <p class = "anime_text3">
+                        Skeleton Knight in Another World is a fairly boilerplate isekai fantasy premise: a gamer falls asleep playing his favorite video game and wakes up to find himself in the world of the game itself. You might be wondering what exactly distinguishes this series from My Next Life as a Villainess: All Routes Lead to Doom! or Mushoku Tensei or like, any other dozens or hundreds of other isekai anime? Well ... in this one, the protagonist is stuck in the body of skeleton! The trailer definitely makes the series feel like comedy, albeit with some questionable moments of implied sexual violence and other assorted weirdness.
+                    </p>
+
+                    <p class = "anime_text3p2">
+                        <b>Skeleton Knight in Another World premieres April 7 2022</b>
+                    </p>
+                </div>
+            </div>
             <h2 id="basketball">Basketball</h2>
             <div class="flexbox">
                 <div class="basketball1">
@@ -131,7 +171,7 @@
                         James ensured the Lakers escaped with a 124-116 win over the Golden State Warriors on Saturday by fulfilling a
                         job description few in NBA history have done before. 
                     </p>
-                    <p class="bask_text1">    
+                    <p class="bask_text1p2">    
                         By finishing with a season-high 56 points while shooting 19-for-31 from the field including six from
                         3-point range and nearly perfect (12-for-13) from the free-throw line along with 10 rebounds, the 37-year-old
                         James became the oldest player in NBA history to post 50-plus points and 10-plus rebounds in a game. He also
@@ -174,7 +214,7 @@
                         the table for the LA.
                     </p>
                       
-                    <p class = "bask_text3">
+                    <p class = "bask_text3p2">
                         It was previously reported that Houston wanted the Lakers 2027 first-round pick in exchange for taking on
                         Westbrook's contract.
                     </p>
@@ -191,7 +231,7 @@
                         However, it was a tiny note in a recent blog post, rather than a full-blown reveal.
                     </p>
 
-                    <p class="game_text1">
+                    <p class="game_text1p2">
                         For years now there's been so many GTA 6 rumors and gossip doing the rounds that it feels surreal to have
                         anything officially confirmed. We've had leaks suggesting elements of the game's story, setting, features, and
                         other details, so it will be exciting to see what's revealed next by Rockstar. 
@@ -206,7 +246,7 @@
                         controversial, giving out niche or not-full games.
                     </p>
 
-                    <p class ="game_text2">Typically, March releases for PS Plus follow a “big” pattern where it’s one of the best
+                    <p class ="game_text2p2">Typically, March releases for PS Plus follow a “big” pattern where it’s one of the best
                         months of the year. It seems safe to say that March 2022 may not have been the biggest March in recent years,
                         but it was still a solid month. Hopefully, what follows in April proves to be the same. There’s no telling what
                         Sony will reveal, expectedly on March 30, but here are a few games that could do well on the service.
