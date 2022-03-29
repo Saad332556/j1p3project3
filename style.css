@@ -26,6 +26,13 @@ html {
     justify-content: space-evenly;
 }
 
+.titel {
+    width: 300px;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 /* Navbar */
 .topnav {
     background-color: rgb(69, 81, 83);
@@ -120,15 +127,17 @@ html {
 .top3news1, .top3news2, .top3news3 {
     margin: 10px;
     padding: 20px;
+    text-align: center;
+    height: fit-content;
     background-color: rgba(229, 181, 241, 0.267);
     border: 1px solid #807e7e;
     box-shadow:15px 10px 40px gray;
 }
 
 .top3_text1, .top3_text2, .top3_text3 {
-    width: 250px;
+    width: 300px;
+    text-align: left;
     font-size: medium;
-    text-align: center;
     font-family: 'Noticia Text', serif;
 }
 
@@ -136,17 +145,21 @@ html {
     height: 150px;
     width: 248px;
     max-width: 100%;
+    text-align: center;
 }
+
 .top3news2 > img {
     height: 150px;
     width: 248px;
     max-width: 100%;
 }
+
 .top3news3 > img {
     height: 150px;
     width: 248px;
     max-width: 100%;
 }
+
 /* More news */
 #more_news { 
     background-color: #f1f1f1;
@@ -158,6 +171,7 @@ html {
 #more_news1 { 
     font-size: 40px;
     margin-bottom: 2rem;
+    padding-top: 2rem;
 }
 
 #basketball, #gaming { font-size: 30px;  }
@@ -167,6 +181,7 @@ html {
     margin: 10px;
     padding: 20px;
     text-align: center;
+    height: fit-content;
     background-color: rgba(229, 181, 241, 0.267);
     border: 1px solid #807e7e;
     box-shadow:15px 10px 40px gray;
@@ -178,31 +193,11 @@ html {
     max-width: 100%;
 }
 
-.bask_titel1, .bask_titel2, .bask_titel3 {
-    width: 300px;
-    text-align: center;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.bask_text1, .bask_text2, .bask_text2p2, .bask_text3 {
-    width: 300px;
-    font-size: medium;
-    text-align: center;
-    font-family: 'Noticia Text', serif;
-}
-
-.basketball2 { height: 41rem; }
-
 .basketball2 > img {
     height: 150px;
     width: 248px;
     max-width: 100%;
 } 
-
-.bask_tekst2 { padding-bottom: 2rem; }
-
-.basketball3 { height: 34rem; }
 
 .basketball3 > img{
     height: 150px;
@@ -210,37 +205,38 @@ html {
     max-width: 100%;
 }
 
+.bask_text1, .bask_text2, .bask_text2p2, .bask_text2p3, .bask_text3 {
+    width: 300px;
+    text-align: left;
+    font-size: medium;
+    font-family: 'Noticia Text', serif;
+}
+
+.bask_text2, .bask_text2p2 { padding-bottom: 1rem; }
+
 /* Gaming */
 .gaming1, .gaming2, .gaming3 {
     margin: 10px;
     padding: 20px;
     text-align: center;
+    height: fit-content;
     background-color: rgba(229, 181, 241, 0.267);
     border: 1px solid #807e7e;
-    box-shadow: 15px 10px 40px gray;
+    box-shadow:15px 10px 40px gray;
 }
 
 .gaming1 > img {
-    height: 257px;
+    height: 150px;
     width: 248px;
     max-width: 100%;
 }
 
-.game_titel1, .game_titel2, .game_titel3 {
-    width: 300px;
-    text-align: center;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
 .game_text1, .game_text2, .game_text3 {
     width: 300px;
+    text-align: left;
     font-size: medium;
-    text-align: center;
     font-family: 'Noticia Text', serif;
 }
-
-.gaming2 { height: 28rem; }
 
 .gaming2 > img {
     height: 150px;
@@ -249,8 +245,6 @@ html {
 } 
 
 .game_tekst2 { padding-bottom: 2rem; }
-
-.gaming3 { height: 34rem; }
 
 .gaming3 > img{
     height: 150px;
@@ -261,56 +255,54 @@ html {
 
 /* Media queries */
 
-/* Navbar */
-@media screen and (max-width: 930px) {
-    .topnav a {display: none;}
-    .topnav a.icon {
-      float: right;
-      display: block;
-    }
-}
+@media (max-width: 930px) {
 
-@media (max-width: 930px)
-{
+    /* Navbar */
+    .topnav a {display: none;}
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+      .topnav ul,
+      .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+
+    /* Logo in de navbar */
+    .topnav > img.responsive { 
+        height: 100px; 
+        width: 155px;
+    }
+
+    /* Carousel */
+    @-webkit-keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+    }
+      
+    @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+    }
+      
+    /* Op kleinere schermen wordt de tekst kleiner*/
+    @media only screen and (max-width: 300px) {
+        .text {font-size: 11px}
+    }
+
+    /* More news */
     .flexbox
     {
         flex-direction: column;
         width: 100%;
     }
 }
-
-@media screen and (max-width: 930px) {
-    .topnav.responsive a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .topnav ul,
-    .topnav.responsive a {
-      float: none;
-      display: block;
-      text-align: center;
-    }
-}
-
-/* Logo in de navbar */
-@media screen and (max-width: 930px) {
-    .topnav > img.responsive { height: 100px; width: 155px;}
-}
-
-/* Carousel */
-@-webkit-keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-}
-  
-@keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-}
-  
-/* Op kleinere schermen wordt de tekst kleiner*/
-@media only screen and (max-width: 300px) {
-    .text {font-size: 11px}
-}
-
