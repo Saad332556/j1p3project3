@@ -37,8 +37,11 @@
                 <a href="#gaming">Gaming</a>
                 <a href="#contact">Contact</a>
                 <div class="topnav-right">
-                    <a href="./login.php">Login</a>
-                    <a href="./register.php">Abonneer nu</a>
+
+                    <a href="../registratie/login.php">Login</a>
+                    <a href="../registratie/register.php">Abonneer nu</a>
+
+                    
                 </div>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i></a>
