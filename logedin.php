@@ -1,4 +1,3 @@
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,19 +24,6 @@
     <title>AmuseNews</title>
 </head>
 <body>
-<div class='popup'>
-    <div class='cnt223'>
-        <h1>Important Notice</h1>
-        <p>
-            You must have a registered account to see this page.
-            Please head to "Subscribe Now!" if you're a new guest, 
-            or go to "Login" if you already have an account.
-            <br/>
-            <br/>
-            <a href='' class='close'>Ok</a>
-        </p>
-    </div>
-</div>
     <div class="topnav">
         <img src="img/default.png" class="responsive">
         <div class="topnav" id="myTopnav">
@@ -50,7 +36,7 @@
                 <div class="topnav-right">
 
                     <a href="../registratie/login.php">Login</a>
-                    <a href="../registratie/register.php">Subscribe Now!</a>
+                    <a href="../registratie/register.php">Abonneer nu</a>
 
                     
                 </div>
@@ -59,8 +45,9 @@
             </ul>
         </div>
     </div>
-    <main id="notregistered">
+    <main>
         <section id="home">
+            <h1>Welkom gebruiker</h1>
             <div class="slideshow-container">
                 <h2>The latest news</h2>
                 <div class="mySlides fade">
@@ -276,7 +263,6 @@
             </div>
         </section>
     </main>
-<script src="popup.js"></script>
 <script src="nav.js"></script>
 <script src="slideshow.js"></script>
 </body>

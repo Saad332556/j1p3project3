@@ -38,8 +38,9 @@
     <!--ingelogde info van gebruiker -->
     <?php  if (isset($_SESSION['username'])) : ?>
         <p>Welkom <strong><?php echo $_SESSION['username']; ?></strong></p>
-        <p class=button> <a href="index.php?logout='1'" style="color: white;">logout</a> </p>
-        <p class=button2> <a href="index.php?terug='1'" style="color: white;">terug naar startpagina</a> </p>
+        <?php 
+            header("Refresh: 3; ../logedin.php")
+        ?>
     <?php endif ?>
 </div>
 
