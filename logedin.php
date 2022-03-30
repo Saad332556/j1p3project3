@@ -35,8 +35,8 @@
                 <a href="#contact">Contact</a>
                 <div class="topnav-right">
 
-                    <a href="../index.php"></a>
-                    <a href="../registratie/dashboard.php">Welkom, <?php echo $_SESSION['username']; ?></a>
+                    <a href="#">Sign out</a>
+                    <a href="../registratie/dashboard.php">Dashboard</a>
 
                     
                 </div>
