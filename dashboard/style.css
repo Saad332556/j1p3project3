@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle:wght@700&family=Noticia+Text&display=swap');
+
+/* 
+    font-family: 'News Cycle', sans-serif;
+    font-family: 'Noticia Text', serif;
+*/
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+html {
+    height: 100vh;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+.topnav {
+    background-color: rgb(69, 81, 83);
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 16px;
+    margin-top: 1.2rem;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 0.8s;
+}
+
+.topnav a:hover {
+    background-color: rgb(184, 178, 178);
+    color: black;
+}
+
+.topnav-right {
+    float: right;
+}
+
+.topnav .icon { display: none; }
+
+.topnav > img { 
+    float: left;
+    height: 100px;
+    width: 108px;
+    max-width: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}

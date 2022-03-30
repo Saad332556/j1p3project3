@@ -276,8 +276,8 @@
             </div>
         </section>
     </main>
-<script src="popup.js"></script>
-<script src="nav.js"></script>
-<script src="slideshow.js"></script>
+<script src="./js/popup.js"></script>
+<script src="./js/nav.js"></script>
+<script src="./js/slideshow.js"></script>
 </body>
 </html>
