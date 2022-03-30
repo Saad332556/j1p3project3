@@ -35,8 +35,8 @@
                 <a href="#contact">Contact</a>
                 <div class="topnav-right">
 
-                    <a href="../registratie/login.php">Login</a>
-                    <a href="../registratie/register.php">Abonneer nu</a>
+                    <a href="../index.php"></a>
+                    <a href="../registratie/dashboard.php">Welkom, <?php echo $_SESSION['username']; ?></a>
 
                     
                 </div>
