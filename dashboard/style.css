@@ -5,7 +5,7 @@
     font-family: 'Noticia Text', serif;
 */
 
-*, *:before, *:after {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -47,8 +47,6 @@ html {
     float: right;
 }
 
-.topnav .icon { display: none; }
-
 .topnav > img { 
     float: left;
     height: 100px;
@@ -66,7 +64,7 @@ html {
 tr:nth-child(even) { background-color: #f2f2f2; }
 
 table {
-    width: 60%;
+    width: 65%;
     text-align: left;
     margin-top: 2rem;
     border-collapse: collapse;
@@ -78,3 +76,16 @@ tr {
 }
 
 th { height: 2rem; }
+
+@media (max-width: 930px) {
+    /* Logo in de navbar */
+    .topnav > img.responsive { 
+        height: 100px; 
+        width: 140px;
+    }
+
+    /* Table on small screens */
+    table {
+        width: 90%;
+    }
+}

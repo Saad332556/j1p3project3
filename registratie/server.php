@@ -23,12 +23,12 @@ if (isset($_POST['reg_user'])) {
   if (empty($email)) { array_push($errors, "Email is required"); }
   if (empty($password_1)) { array_push($errors, "Password is required"); }
   if ($password_1 != $password_2) {
-	array_push($errors, "The two passwords do not match");
+	  array_push($errors, "The two passwords do not match");
   }
 
   // first check the database to make sure 
   // a user does not already exist with the same username and/or email
-  $user_check_query = "SELECT * FROM users WHERE username='$username' OR email='$email' LIMIT 1";
+  $user_check_query = "SELECT * FROM `users` WHERE username='$username' OR email='$email' LIMIT 1";
   $result = mysqli_query($db, $user_check_query);
   $user = mysqli_fetch_assoc($result);
   
@@ -55,9 +55,6 @@ if (isset($_POST['reg_user'])) {
   }
 }
 
-// ... 
-// ... 
-
 // LOGIN USER
 if (isset($_POST['login_user'])) {
     $username = mysqli_real_escape_string($db, $_POST['username']);
@@ -83,5 +80,31 @@ if (isset($_POST['login_user'])) {
         }
     }
   }
+
+  // REGISTER USER
+if (isset($_POST['update_user'])) {
+
+  $id = $_POST['id'];
+  $username = $_POST['username'];
+  $email = $_POST['email'];
+  $userrole = $_POST['userrole'];
+  
+
+  var_dump($_POST);
+  
+  $sql = "UPDATE `users` SET `username`= '$username',
+                             `email`= '$email',
+                             `userrole`= '$userrole' 
+                          WHERE `id` = $id;";
+
+  var_dump($sql);
+
+  mysqli_query($db, $sql);
+
+  $_SESSION['message'] = "Information updated!"; 
+
+  header("Location: ../dashboard/dashboard.php");
+
+}
   
   ?>

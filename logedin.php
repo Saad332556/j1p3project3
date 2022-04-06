@@ -35,8 +35,8 @@
                 <a href="#contact">Contact</a>
                 <div class="topnav-right">
 
-                    <a href="#">Sign out</a>
-                    <a href="../registratie/dashboard.php">Dashboard</a>
+                    <a href="./index.php">Sign out</a>
+                    <a href="../dashboard/dashboard.php">Dashboard</a>
 
                     
                 </div>
@@ -47,7 +47,6 @@
     </div>
     <main>
         <section id="home">
-            <h1>Welkom gebruiker</h1>
             <div class="slideshow-container">
                 <h2>The latest news</h2>
                 <div class="mySlides fade">
@@ -263,7 +262,7 @@
             </div>
         </section>
     </main>
-<script src="nav.js"></script>
-<script src="slideshow.js"></script>
+<script src="../js/nav.js"></script>
+<script src="../js/slideshow.js"></script>
 </body>
 </html>
