@@ -31,13 +31,17 @@
                     <a href="../dashboard/dashboard.php">Users</a>
                     <div class="topnav-right">
                         <a href="../logedin.php">Return</a>
-                        <p></p>
                     </div>
                 </ul>
             </div>
         </div>
         <main>
+        <textarea id="w3review" name="w3review" rows="4" cols="50">
+            
+        </textarea>
         
         </main>
+        <script src="//js.nicedit.com/nicEdit-latest.js" type="text/javascript"></script>
+        <script type="text/javascript">bkLib.onDomLoaded(nicEditors.allTextAreas);</script>			
     </body>
 </html>
