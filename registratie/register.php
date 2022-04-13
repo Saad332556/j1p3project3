@@ -1,4 +1,4 @@
-<?php include('../registratie/server.php') ?>
+<?php include('../registratie/server.php'); ?>
 <!DOCTYPE html>
 <html>
 <head>

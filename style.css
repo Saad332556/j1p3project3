@@ -235,12 +235,12 @@ html {
     margin-bottom: 2rem;
 }
 
-#more_news1, #basketball, #gaming, #anime { 
+#latest_news, #more_news1, #basketball, #gaming, #anime { 
     text-align: center;
     margin-top: 3rem; 
 }
 
-#more_news1 {   
+#latest_news, #more_news1 {   
     font-size: 40px;
     margin-bottom: 2rem;
     padding-top: 2rem;

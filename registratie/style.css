@@ -74,3 +74,12 @@ form, .content {
   border: 1px solid #3c763d;
   margin-bottom: 20px;
 }
+
+@media (max-width: 930px) {
+  /* Logo in de navbar */
+  .header { width: 70%; }
+
+  form, .content { width: 70%; }
+
+  .btn { float: right; }
+}

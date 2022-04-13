@@ -42,7 +42,9 @@
     <label class="form-label" for="inputSelect">Choose the role</label>
     <select name="userrole" class="form-select mb-2" id="inputSelect" required>
         <option value="" disabled selected>Role</option>
+        <option value="admin" <?php if ($record['userrole'] == "admin") { echo "selected"; } ?>>Admin</option>
         <option value="moderator" <?php if ($record['userrole'] == "moderator") { echo "selected"; } ?>>Moderator</option>
+        <option value="editor" <?php if ($record['userrole'] == "editor") { echo "selected"; } ?>>Editor</option>
         <option value="user" <?php if ($record['userrole'] == "user") { echo "selected"; } ?>>User</option>
         </option>
     </select>

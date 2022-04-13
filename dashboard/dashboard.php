@@ -39,7 +39,7 @@
         <meta name="copyright" content="copyright">
 
         <!-- CSS link -->
-        <link rel="stylesheet" href="../dashboard/style.css">
+        <link rel="stylesheet" href="./style.css">
 
         <!-- Edit- and delete icon link -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -63,7 +63,11 @@
             </div>
         </div>
         <main>
-        <div class="container">
+            <div id="begin_dashboard">
+                <h1 id="t_users">Users</h1>
+                <p id="txt_users">This is an overview of all current users.</p>
+            </div>
+            <div class="container">
                 <div class="row">
                     <div>
                         <table>

@@ -1,3 +1,4 @@
+<?php include('../registratie/server.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -12,16 +13,20 @@
         <meta name="copyright" content="copyright">
 
         <!-- CSS link -->
-        <link rel="stylesheet" href="../dashboard/style.css">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./snackbar.css">
 
         <!-- Edit- and delete icon link -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- link to turn textarea to a WYSIWYG HTML Editor -->
+        <script src="https://cdn.tiny.cloud/1/369imi5czjrpeg3zotgsqh3foitvdqggjdgtdsq8v9mqqzi6/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
         
         <!-- Favicon icoon -->
         <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
 
         <!-- Website titel -->
-        <title>AmuseNews | Users</title>
+        <title>AmuseNews | Dashboard</title>
     </head>
     <body>
         <div class="topnav">
@@ -36,12 +41,22 @@
             </div>
         </div>
         <main>
-        <textarea id="w3review" name="w3review" rows="4" cols="50">
-            
-        </textarea>
-        
+            <div id="begin_dashboard">
+                <h1 id="t_dashboard">Dashboard</h1>
+                <p class="txt_dashboard">Please provide the news that you would like to publish.</p>
+                <p class="txt_dashboard">Keep the rules for publishing news in mind, you can find them <a href="https://www.urbancreativity.org/rules-for-publication.html" target="_BLANK">here</a>.</p>
+            </div>
+            <form action="./post_news.php" method="post" id="dashboard">
+                <textarea name="editor" id="editor" placeholder="Please write here..."></textarea>
+                <button type="submit" name="submit" value="submit" class="submit_dashboard" onclick="myFunction()">Submit</button>
+            </form>
         </main>
-        <script src="//js.nicedit.com/nicEdit-latest.js" type="text/javascript"></script>
-        <script type="text/javascript">bkLib.onDomLoaded(nicEditors.allTextAreas);</script>			
+        <script>
+            tinymce.init({
+                selector: '#editor'
+            });
+        </script>
+<script src="tinymce/tinymce.min.js"></script>
+<script src="./snackbar.js"></script>
     </body>
 </html>

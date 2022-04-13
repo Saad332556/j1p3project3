@@ -1,3 +1,15 @@
+<?php include('./registratie/server.php');
+
+$query = 'SELECT * FROM `dashboard`';
+
+$result = mysqli_query($db, $query);
+
+$rows = [];
+while($row = mysqli_fetch_assoc($result)){
+    $rows[] = $row;
+}
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -113,8 +125,15 @@
                 </div>
             </div>
         </section>
-
         <section id="more_news">
+            <h2 id="latest_news">Latest News</h2>
+            <div class="flexbox">
+                <?php foreach($rows as $index => $row): ?>
+                <div class="latest_news<?php echo $index; ?>">
+                <?php echo $row['content']; ?>                
+                </div>
+                <?php endforeach; ?>
+            </div>
             <h2 id="more_news1">More News</h2>
             <h2 id="anime">Anime</h2>
             <div class="flexbox">
