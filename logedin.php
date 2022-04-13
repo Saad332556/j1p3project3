@@ -45,7 +45,28 @@ while($row = mysqli_fetch_assoc($result)){
                 <a href="#basketball">Basketball</a>
                 <a href="#gaming">Gaming</a>
                 <a href="#contact">Contact</a>
-                <div class="topnav-right">
+                    <div class="topnav-right">
+                    <?php
+                        if (isset($_SESSION["id"])) {
+                            switch ($_SESSION["userrole"]) {
+                            case 'admin':
+                                echo '<a class="nav-link '; echo '" href="./index.php">home</a>';
+                            break;
+                            case 'moderator':
+                                echo '<a class="nav-link '; echo '" href="./index.php">home</a>';
+                            break;
+                            case 'editor':
+                                echo '<a class="nav-link '; echo '" href="./index.php">home</a>';
+                            break;
+                            case 'user':
+                                echo '<a class="nav-link '; echo '" href="./index.php">home</a>';
+                            break;
+                            default:
+                            break;
+                            }
+                        } 
+                    ?>
+                
 
                     <a href="./index.php">Sign out</a>
                     <a href="../dashboard/dashboard.php">Dashboard</a>
@@ -130,7 +151,7 @@ while($row = mysqli_fetch_assoc($result)){
             <div class="flexbox">
                 <?php foreach($rows as $index => $row): ?>
                 <div class="latest_news<?php echo $index; ?>">
-                <?php echo $row['content']; ?>                
+                <?php echo $row['content']; ?>
                 </div>
                 <?php endforeach; ?>
             </div>

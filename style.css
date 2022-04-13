@@ -229,6 +229,17 @@ html {
     max-width: 100%;
 }
 
+/* Latest news */
+.latest_news {
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    height: fit-content;
+    background-color: rgba(229, 181, 241, 0.267);
+    border: 1px solid #807e7e;
+    box-shadow:15px 10px 40px gray;
+}
+
 /* More news */
 #more_news { 
     background-color: #f1f1f1;
